@@ -9,8 +9,13 @@ h2 {
   font-weight: 800; 
 }
 
+h3 {
+  color: #823930;
+  font-weight: 600;
+}
+
 body {
-  background-color: Beige;
+  background-color: #eee;
   text-align: center;
 }
 
