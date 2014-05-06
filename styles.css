@@ -6,7 +6,6 @@ html {
   background-size: cover;
 }
 
-
 h1 {
   text-align: center;
   color: #823930;
@@ -29,6 +28,9 @@ h3 {
 body {
   text-align: center;
   font-family: 'Merriweather', serif;
+
+p { 
+  Font-color: 'green';
 }
 
 button {
