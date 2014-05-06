@@ -23,7 +23,6 @@
 <h4> Click for something </h4>
 
 <head>
-<button type="button">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
 </script>
 <script> 
@@ -31,12 +30,13 @@ $(document).ready(function() {
  $("button").click(function() {
   $("#gooj").fadeOut("slow");
  });
-});
+ 
 </script>
 </head>
 
 <body>
-<button>That box is pretty annoying...</button>
+<p>That box is annoying</p>
+<button>Please make it go away</button>
 <br><br>
 <div id="gooj" style="width:80px;height:80px;background-color:red;"></div><br>
 </body>
