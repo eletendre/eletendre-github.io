@@ -1,3 +1,12 @@
+html { 
+  background: url('https://lh5.googleusercontent.com/--9XYMCbdcRQ/UqOq47-KTcI/AAAAAAAAAB0/bXeQwxtvRTY/dbacks.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 h1 {
   text-align: center;
   color: #823930;
