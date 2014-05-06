@@ -17,13 +17,10 @@ h3 {
   font-family: 'Merriweather', serif;
 }
 
-#html {
-  background-image: url('https://lh5.googleusercontent.com/--9XYMCbdcRQ/UqOq47-KTcI/AAAAAAAAAB0/bXeQwxtvRTY/dbacks.jpg');
-    position: fixed; 
-  top: 0; 
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
+html {
+  background:url('http://www.parkviewlittleleague.com/Teams/Logos/Minor_A/D-Backs.gif');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
 	
 }
 
