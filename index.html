@@ -25,7 +25,15 @@
 
 <hr>
 
-<h4>These boxes are annoying</h4>
+<script> 
+function displayResult()
+{
+document.getElementById("say").innerHTML="These boxes are annoying";
+}
+</script>
+
+<h4 id="say">Hello World!</h1>
+<button onclick="displayResult()">Thank you</button>
 
 <script> 
 $(document).ready(function() {
