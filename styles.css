@@ -29,10 +29,6 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
 
-p { 
-  Font-color: 'green';
-}
-
 button {
   display:inline-block;
   height:48px
