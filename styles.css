@@ -25,15 +25,15 @@ body {
 
 button {
   display:inline-block;
-  height:23px
+  height:48px
   padding:0 0 0 3px;
-  font-size:12px;
+  font-size:13px;
   font-weight:500;
   color:#333;
   text-shadow:1px 1px 0 #fff; 
   background:url(http://github.com/images/modules/buttons/minibutton_matrix.png) 0 0 no-repeat;
   white-space:nowrap;
-  border:none;
+  border:#fff;
   overflow:visible;
   cursor:pointer;
   text-decoration:none;
