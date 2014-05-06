@@ -38,4 +38,8 @@ button {
   cursor:pointer;
   text-decoration:none;
 	}
+	
+button:hover {
+	background: url('http://www.parkviewlittleleague.com/Teams/Logos/Minor_A/D-Backs.gif');
+}
 		
