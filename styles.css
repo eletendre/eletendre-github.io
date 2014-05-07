@@ -48,9 +48,9 @@ button {
 }	
 
 #gooj {
-  text-align: center;
+  box-align: center;
 }
 
 #woo {
-  text-align:center;
+  box-align:center;
 }
