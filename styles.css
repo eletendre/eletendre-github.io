@@ -39,7 +39,7 @@ button {
   font-weight:500;
   color:#333;
   text-shadow:1px 1px 0 #fff; 
-  background:url(http://github.com/images/modules/buttons/minibutton_matrix.png) 0 0 no-repeat;
+  background: url(http://github.com/images/modules/buttons/minibutton_matrix.png) 0 0 no-repeat;
   white-space:nowrap;
   border:#fff;
   overflow:visible;
