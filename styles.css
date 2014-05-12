@@ -30,8 +30,6 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-<a href="#" class="Button">Back to Lyrics!</a>
-
 .Button {
 	-moz-box-shadow:inset -1px -11px 7px -2px #29bbff;
 	-webkit-box-shadow:inset -1px -11px 7px -2px #29bbff;
