@@ -1,11 +1,5 @@
-$(document).ready(function() {
- $("button").click(function() {
-  $("#gooj").fadeOut("slow");
- });
-});
+function changeText() {
+	$('#myButton').html('Thank you');
+}
 
-$(document).ready(function() {
- $("button").click(function() {
-  $("#woo").fadeOut("slow");
- });
-});
+
