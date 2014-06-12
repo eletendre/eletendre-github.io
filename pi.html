@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="processing.js@*" data-semver="1.4.1" src="//cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.1/processing.min.js"></script>
+    <script type="text/processing" data-processing-target="targetcanvas">
+
 noFill();
 noStroke();
 var InTheCircle = 0;
@@ -39,3 +46,11 @@ var draw = function() {
         InTheCircle = 0;
         pi = 0;
  };
+ 
+ </script>    
+  </head>
+
+  <body>
+    <canvas id="targetcanvas" width="400" height="400"></canvas>
+  </body>
+</html>
