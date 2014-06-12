@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var x = 0;
 var y = 0;
 var score = 0;
@@ -52,3 +53,38 @@ var mouseClicked = function() {
 }
 };
 
+=======
+var draw = function() {
+
+void setup() {
+noFill();
+noStroke();
+ellipse(200, 200, 400, 400);
+}
+
+var InTheCircle = 0;
+var all = 0;
+
+for (var i = 0; i < 200; i += 1) {
+    var randomX = random(0, 400);
+    var randomY = random(0, 400);
+    var distance = dist(randomX, randomY, 200, 200);
+    all += 1;
+    stroke(0, 0, 0);
+    fill(255, 0, 0);
+    strokeWeight(4);
+        if (distance > width / 2) {
+            InTheCircle =+ 1;
+        stroke(0, 0, 0); 
+            } else {
+            stroke(255, 0, 43);    
+            }
+            point(randomX, randomY);
+            }
+            all += 1;
+        
+            noStroke();
+            fill(250, 250, 250);
+            text(nf(InTheCircle / all * 4.00, 1 , 5), 185, 200);
+};                   
+>>>>>>> b03ef811688d7f860efeae042c681c425d5893f9
